@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-07T22:58:44 IST" name="Default suite" finished-at="2024-07-07T22:59:03 IST" duration-ms="18888">
+    <groups>
+    </groups>
+    <test started-at="2024-07-07T22:58:44 IST" name="Default test" finished-at="2024-07-07T22:59:03 IST" duration-ms="18888">
+      <class name="day10.DataproviderDemo">
+        <test-method signature="openBrowser()[pri:0, instance:day10.DataproviderDemo@4e50c791]" started-at="2024-07-07T22:58:44 IST" name="openBrowser" finished-at="2024-07-07T22:58:48 IST" duration-ms="3894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="searchmobile(java.lang.String,java.lang.String)[pri:0, instance:day10.DataproviderDemo@4e50c791]" started-at="2024-07-07T22:58:48 IST" name="searchmobile" data-provider="mobilesearch" finished-at="2024-07-07T22:58:53 IST" duration-ms="4822" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vivo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[v29]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchmobile -->
+        <test-method signature="searchmobile(java.lang.String,java.lang.String)[pri:0, instance:day10.DataproviderDemo@4e50c791]" started-at="2024-07-07T22:58:53 IST" name="searchmobile" data-provider="mobilesearch" finished-at="2024-07-07T22:58:59 IST" duration-ms="5850" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Apple]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15 pro max]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchmobile -->
+        <test-method signature="searchmobile(java.lang.String,java.lang.String)[pri:0, instance:day10.DataproviderDemo@4e50c791]" started-at="2024-07-07T22:58:59 IST" name="searchmobile" data-provider="mobilesearch" finished-at="2024-07-07T22:59:03 IST" duration-ms="4272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Redmi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchmobile -->
+      </class> <!-- day10.DataproviderDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
